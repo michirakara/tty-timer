@@ -481,7 +481,7 @@ main(int argc, char **argv)
 
      atexit(cleanup);
 
-     while ((c = getopt(argc, argv, "ivScbrhBxnC:d:T:a:e:")) != -1)
+     while ((c = getopt(argc, argv, "ivScbrhBxnC:d:T:a:u:")) != -1)
      {
           switch(c)
           {
