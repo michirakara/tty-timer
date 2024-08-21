@@ -1,20 +1,16 @@
-usage : tty-clock [-iuvsScbtrahDBxn] [-C [0-7]] [-f format] [-d delay] [-a nsdelay] [-T tty]
-    -s            Show seconds
-    -S            Screensaver mode
-    -x            Show box
-    -c            Set the clock at the center of the terminal
-    -C [0-7]      Set the clock color
-    -b            Use bold colors
-    -t            Set the hour in 12h format
-    -u            Use UTC time
-    -T tty        Display the clock on the specified terminal
-    -r            Do rebound the clock
-    -f format     Set the date format
-    -n            Don't quit on keypress
-    -v            Show tty-clock version
-    -i            Show some info about tty-clock
-    -h            Show this page
-    -D            Hide date
-    -B            Enable blinking colon
-    -d delay      Set the delay between two redraws of the clock. Default 1s.
+usage : tty-timer [-ivScbrahBxn] [-C [0-7]] [-u [0-7]] [-d delay] [-a nsdelay] [-T tty] {time}
+    -S            Screensaver mode                               
+    -x            Show box                                       
+    -c            Set the timer at the center of the terminal    
+    -C [0-7]      Set the timer color                            
+    -u [0-7]      Set the timer color when time is up            
+    -b            Use bold colors                                
+    -T tty        Display the timer on the specified terminal    
+    -r            Do rebound the timer                           
+    -n            Don't quit on keypress                         
+    -v            Show tty-timer version                         
+    -i            Show some info about tty-timer                 
+    -h            Show this page                                 
+    -B            Enable blinking colon                          
+    -d delay      Set the delay between two redraws of the timer. Default 1s. 
     -a nsdelay    Additional delay between two redraws in nanoseconds. Default 0ns.
